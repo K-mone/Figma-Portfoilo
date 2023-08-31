@@ -5,11 +5,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 body {
-  margin: 0;
   font-family: var(--default-font-family);
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
 }
 .hero {
   background: var(--secondary-color);
@@ -18,15 +14,19 @@ body {
 }
 h1,
 h2,
-h3 {
-  margin-top: 0;
-  line-height: 1.2;
+h3,
+h4,
+h5,
+h6 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1 {
   font-size: 96px;
+}
+p {
+  font-weight: normal;
 }
 .hero h2 {
   font-family: var(--heading-font-family);
@@ -40,9 +40,7 @@ h1 {
   margin: 0;
   color: #272142;
 }
-div {
-  display: block;
-}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -50,9 +48,4 @@ div {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-.btn {
-  font-weight: 400;
-  text-align: center;
-  text-decoration: none;
 }
